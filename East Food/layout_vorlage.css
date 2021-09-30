@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+  background-image: url("https://i.pinimg.com/originals/cf/b9/c7/cfb9c73bbf54380c5387217e779dd28e.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100vw;
+}
+
+p {
+  font-family: 'Indie Flower', bold;
+  hyphens: auto;
+  text-align: justify;
+  color: white;
+  font-size: 1em;
+  margin: 10px;
+}
+
+h2 {
+  font-family: 'Indie Flower', bold;
+  color: white;
+  font-size: 2em;
+  margin: 5px;
+}
+
+h3 {
+  font-family: 'Indie Flower', bold;
+  color: white;
+  font-size: 1, 5em;
+  margin: 10px;
+}
+
+.gridContainer {
+  display: grid;
+  margin: 0;
+  grid-template-columns: 100px 1300px 100px;
+  grid-template-rows: 100px auto 100px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  opacity: 95%;
+}
+
+.flexHeader {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  width: auto;
+  height: 100px;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  background-color: white;
+  font-family: 'Amatic SC', bold;
+  font-size: 30px;
+  color: brown;
+}
+
+.flexHeaderItem {
+  display: flex;
+  width: 400px;
+  height: 30px;
+  margin: 10px;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+a:link, a:visited {
+  color: brown;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d62828;
+}
+
+.flexBodyContainer {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.flexBodyItem {
+  width: 300px;
+  height: 400px;
+  margin: 50px;
+  background-color: #167c80;
+}
+
+.flexBodyNullItem {
+  width: 300px;
+  height: 400px;
+  margin: 50px;
+}
+
+.flexFooterContainer {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  display: flex;
+  width: auto;
+  height: 100px;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: white;
+}
+
+.flexFooterItem {
+  width: auto;
+  height: auto;
+  margin: 50px;
+  font-family: 'Amatic SC', bold;
+  font-size: 25px;
+  color: brown;
+}

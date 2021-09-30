@@ -1,0 +1,8 @@
+hintergrundfarbe #F9F9F9
+panel farbe #e3e3e3
+
+box testfarbe:
+logo:#3d3d3d
+
+grün: #167c80
+rot: #d62828

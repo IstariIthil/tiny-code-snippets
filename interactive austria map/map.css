@@ -1,0 +1,69 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 1fr 1fr;
+    grid-template-rows: 2% 1fr 1fr 1fr 10%;
+    gap: 2px 2px;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas:
+    ". . ."
+    "map hauptstadt flagge"
+    "map politik geschlechter"
+    "bevölkerungsentwicklung religion gebirge"
+    ". . .";
+}
+
+.map { 
+    grid-area: map;
+}
+
+.map:hover {
+    fill: red;
+}
+
+.bevölkerungsentwicklung { 
+    grid-area: bevölkerungsentwicklung;
+    background-color: grey;
+}
+
+.hauptstadt { 
+    grid-area: hauptstadt;
+    background-color: grey;
+}
+
+.flagge { 
+    grid-area: flagge;
+    background-color:grey
+}
+
+.politik { 
+    grid-area: politik;
+    background-color: grey;
+}
+
+.geschlechter { 
+    grid-area: geschlechter;
+    background-color: grey;
+}
+
+.religion { 
+    grid-area: religion;
+    background-color: grey;
+}
+
+.gebirge { 
+    grid-area: gebirge;
+    background-color: grey;
+}
+
+.bevölkerungsentwicklungChart {
+    width: 50%;
+    height: 15vh;
+}

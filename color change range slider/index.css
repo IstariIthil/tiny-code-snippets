@@ -1,0 +1,54 @@
+body {
+    background-color: rgba(34,39,43,255);
+}
+
+p {
+    color: white;
+}
+
+.slider_container {
+    width: 15%;
+    height: 10px;
+}
+
+.slider_standard {
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 100%;
+    height: 10px;
+    background: white; /*Hintergrundfarbe IM Slider*/
+    
+}
+.slider_color_1 {
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 100%;
+    height: 10px;
+    background: lightsalmon; /*Hintergrundfarbe IM Slider*/
+}
+
+.slider_color_2 {
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 100%;
+    height: 10px;
+    background: yellow; /*Hintergrundfarbe IM Slider*/
+}
+
+.slider_color_3 {
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 100%;
+    height: 10px;
+    background: lightgreen; /*Hintergrundfarbe IM Slider*/
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px; 
+    height: 10px; 
+    background: #04AA6D;
+    cursor: pointer;
+}
+

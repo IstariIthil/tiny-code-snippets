@@ -1,0 +1,4 @@
+logo color green: #65C7B0
+logo color dark: #252A2E
+
+font-family: 'Open Sans', sans-serif;
